@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,200&display=swap');
+
+:root {
+    --primary-color: #2563EB;
+    --width-break: 600px;
+}
+
+body {
+    font-family: 'Satisfy', cursive;
+    background-image: url("imagesminion/minion.jpg");
+    margin: 0px;
+}
+
+/** nav **/
+.navigation .nav-heading {
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+/**input-area**/
+
+#txt-input {
+    font-family: 'Texturina', serif;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+    min-height: 18vh;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+/**button**/
+
+#btn-translate {
+    font-family: 'Satisfy', cursive;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    border: none;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+main {
+
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+/**Output-area**/
+
+#txt-output {
+    font-family: 'Texturina', serif;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 18vh;
+    max-height: 20vh;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 1.5rem;
+
+}
+
+/** footer **/
+
+.footer {
+
+    background-color: var(--primary-color);
+    padding: 0.5rem 0rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .footer-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer .footer-txt {
+    margin: auto;
+    max-width: var(--width-break);
+    font-size: 1.5rem;
+}
